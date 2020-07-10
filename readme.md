@@ -1,9 +1,9 @@
-# @titanium/package-template
+# @titanium/jsonc
 
-[![@titanium/package-template](https://img.shields.io/npm/v/@titanium/package-template.png)](https://www.npmjs.com/package/@titanium/package-template)
-[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=brentonhouse/titanium-package-template)](https://dependabot.com)
+[![@titanium/jsonc](https://img.shields.io/npm/v/@titanium/jsonc.png)](https://www.npmjs.com/package/@titanium/jsonc)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=brentonhouse/titanium-jsonc)](https://dependabot.com)
 
-> Turbo package that allows you to to do something with Axway Titanium.
+> Use JSONC with Axway Titanium.
 
 * [📝 Description](#-description)
 * [🚀 Getting Started](#-getting-started)
@@ -15,14 +15,14 @@
 
 ## 📝 Description
 
-Turbo package that allows you to to do something with Axway Titanium.
+Use JSONC with Axway Titanium.
 
 ## 🚀 Getting Started
 
-1. Install `@titanium/package-template` in root of project
+1. Install `@titanium/jsonc` in root of project
 
 ```bash
-npm install @titanium/package-template
+npm install @titanium/jsonc
 ```
 
 ## ✨Features
@@ -33,16 +33,16 @@ npm install @titanium/package-template
 
 ## 📚Learn More
 
-- [@titanium/package-template GitHub Repo](https://github.com/brentonhouse/titanium-package-template)
-- [@titanium/package-template npm page](https://npmjs.com/packages/@titanium/package-template)
+- [@titanium/jsonc GitHub Repo](https://github.com/brentonhouse/titanium-jsonc)
+- [@titanium/jsonc npm page](https://npmjs.com/packages/@titanium/jsonc)
 
 ## 📣 Feedback
 
-Have an idea or a comment?  [Join in the conversation here](https://github.com/brentonhouse/titanium-package-template/issues)! 
+Have an idea or a comment?  [Join in the conversation here](https://github.com/brentonhouse/titanium-jsonc/issues)! 
 
 ## ©️ Legal
 
-packages are licensed under MIT
+Code is licensed under MIT
 
 Alloy is developed by Appcelerator and the community and is Copyright © 2012-Present by Appcelerator, Inc. All Rights Reserved.
 

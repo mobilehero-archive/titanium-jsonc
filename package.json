@@ -1,12 +1,10 @@
 {
-	"name": "@titanium/package-template",
-	"version": "1.0.0",
-	"description": "Turbo package that allows you to to do something with Axway Titanium.",
-	"main": "index.js",
+	"name": "@titanium/jsonc",
+	"version": "0.0.1",
+	"description": "Use JSONC with Axway Titanium.",
+	"main": "jsonc.js",
 	"scripts": {
 		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
-		"postinstall": "tiapp-install-module",
-		"postuninstall": "tiapp-uninstall-module",
 		"prep": "npm install --ignore-scripts && npm run list",
 		"prepublishOnly": "git pull && bump",
 		"test": "echo \"no test specified\" && exit 0"
@@ -21,13 +19,13 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "github:brentonhouse/titanium-package-template"
+		"url": "github:brentonhouse/titanium-jsonc"
 	},
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/brentonhouse/titanium-package-template/issues"
+		"url": "https://github.com/brentonhouse/titanium-jsonc/issues"
 	},
-	"homepage": "https://github.com/brentonhouse/titanium-package-template#readme",
+	"homepage": "https://github.com/brentonhouse/titanium-jsonc#readme",
 	"keywords": [
 		"titanium",
 		"mobile",
@@ -49,5 +47,8 @@
 		"fs-extra": "^9.0.1",
 		"lodash": "^4.17.19"
 	},
-	"dependencies": {}
+	"dependencies": {
+		"fast-safe-stringify": "^2.0.7",
+		"jsonc-parser": "^2.3.0"
+	}
 }
