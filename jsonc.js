@@ -4,14 +4,9 @@ module.exports = jsonc;
 
 
 jsonc.parser = require('jsonc-parser');
-
-
 const stringifier = require('fast-safe-stringify');
-jsonc.stringify = obj => {
-	const result = stringifier(obj);
-	return result;
-};
 
+jsonc.stringify = (value, replacer, space) => stringifier(value, replacer, space);
 
 jsonc.parse = (json, errors = [], { allowTrailingComma = true, allowEmptyContent = false, disallowComments = false } = {}) => {
 
