@@ -1,1 +1,1 @@
-global.JSONC = require('@titanium/jsonc');
+global.JSONC = require('./jsonc');
