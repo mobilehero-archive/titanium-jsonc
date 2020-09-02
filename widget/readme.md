@@ -1,1 +1,0 @@
-This is where your widget goes.  No sub-directories for versions/etc
