@@ -1,13 +1,13 @@
-version: 1	
+version: 1
 
-update_configs:	
+update_configs:
 
-- package_manager: javascript	
-  directory: "/"	
+- package_manager: javascript
+  directory: "/"
   update_schedule: live
-  default_assignees: 	
+  default_assignees: 
     - brentonhouse	
-  default_labels:	
+  default_labels:
     - dependencies	
     - dependabot	
   allowed_updates:
@@ -32,4 +32,7 @@ update_configs:
         update_type: all
     - match:
         dependency_name: eslint*
+        update_type: semver:minor
+    - match:
+        dependency_name: jsonc-parser
         update_type: semver:minor
