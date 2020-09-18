@@ -3,6 +3,9 @@
 // modified from color-json v2.0.1
 module.exports = json;
 
+
+const JSONC = require('./jsonc');
+
 const { gray, blue, green, cyan, magenta, yellow, red } = require('ansi-colors');
 
 
