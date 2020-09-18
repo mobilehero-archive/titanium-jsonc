@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/jsonc",
-	"version": "0.0.9",
+	"version": "0.0.10",
 	"description": "Use JSONC with Axway Titanium.",
 	"main": "jsonc.js",
 	"scripts": {

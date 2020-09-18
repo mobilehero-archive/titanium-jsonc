@@ -4,9 +4,9 @@ module.exports = jsonc;
 
 // const colorJson = require('./color-json');
 jsonc.parser = require('jsonc-parser');
-const stringifier = require('fast-safe-stringify');
+// const stringifier = require('fast-safe-stringify');
 
-jsonc.stringify = (value, replacer, space) => stringifier(value, replacer, space);
+jsonc.stringify = (value, replacer, space) => require('fast-safe-stringify')(value, replacer, space);
 jsonc.colorify = (value, replacer, space) => require('./color-json')(value, { indent: space });
 
 jsonc.parse = (json, errors = [], { allowTrailingComma = true, allowEmptyContent = false, disallowComments = false } = {}) => {
