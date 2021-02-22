@@ -46,7 +46,7 @@
 		"@titanium/eslint-config": "0.0.18",
 		"eslint": "^7.11.0",
 		"fs-extra": "^9.0.1",
-		"lodash": "^4.17.20"
+		"lodash": "^4.17.21"
 	},
 	"dependencies": {
 		"ansi-colors": "^4.1.1",
