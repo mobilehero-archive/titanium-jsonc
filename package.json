@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/jsonc",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "⭐  Axway Amplify module for using JSONC with Appcelerator Titanium SDK",
 	"main": "jsonc.js",
 	"scripts": {
