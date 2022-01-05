@@ -1,15 +1,21 @@
 {
 	"name": "@titanium/jsonc",
-	"version": "0.0.11",
-	"description": "Use JSONC with Axway Titanium.",
+	"version": "1.0.1",
+	"description": "⭐  Axway Amplify module for using JSONC with Appcelerator Titanium SDK",
 	"main": "jsonc.js",
 	"scripts": {
+		"lint": "eslint . --fix",
 		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
 		"prep": "npm install --ignore-scripts && npm run list",
-		"prepublishOnly": "git pull && bump",
-		"test": "echo \"no test specified\" && exit 0"
+		"test": "npm run prep",
+		"prepublishOnly2": "git pull && npm test && bump insane",
+		"prepublishOnly": "git pull && npm test && npm audit fix && bump insane"
 	},
-	"author": "Axway",
+	"author": {
+		"name": "Brenton House",
+		"email": "brenton.house@gmail.com",
+		"url": "https://brenton.house"
+	},
 	"maintainers": [
 		{
 			"name": "Brenton House",
@@ -25,7 +31,7 @@
 	"bugs": {
 		"url": "https://github.com/brentonhouse/titanium-jsonc/issues"
 	},
-	"homepage": "https://github.com/brentonhouse/titanium-jsonc#readme",
+	"homepage": "https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de",
 	"keywords": [
 		"titanium",
 		"mobile",
@@ -39,18 +45,28 @@
 		"ipad",
 		"jsonc",
 		"titanium-package",
+		"sdk",
+		"plugin",
+		"amplify",
+		"api-builder",
+		"appcelerator-titanium",
+		"titanium-sdk",
+		"titanium-mobile",
+		"titanium-module",
+		"axway-sdk",
+		"axway-amplify",
 		"brenton-house"
 	],
 	"titanium": {},
 	"devDependencies": {
-		"@titanium/eslint-config": "0.0.18",
-		"eslint": "^7.11.0",
-		"fs-extra": "^9.0.1",
-		"lodash": "^4.17.20"
+		"@titanium/eslint-config": "1.0.8",
+		"eslint": "^8.6.0",
+		"fs-extra": "^10.0.0",
+		"lodash": "^4.17.21"
 	},
 	"dependencies": {
 		"ansi-colors": "^4.1.1",
-		"fast-safe-stringify": "^2.0.7",
-		"jsonc-parser": "^2.3.1"
+		"fast-safe-stringify": "^2.1.1",
+		"jsonc-parser": "^3.0.0"
 	}
 }
