@@ -1,15 +1,15 @@
 {
 	"name": "@titanium/jsonc",
-	"version": "1.0.3",
-	"description": "⭐  Axway Amplify module for using JSONC with Appcelerator Titanium SDK",
+	"version": "1.0.4",
+	"description": "⭐  Axway Amplify module for using JSONC with Appcelerator Titanium SDK Framework",
 	"main": "jsonc.js",
 	"scripts": {
 		"lint": "eslint . --fix",
 		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
-		"prep": "npm install --ignore-scripts && npm run list",
+		"prep": "npm install --ignore-scripts",
 		"test": "npm run prep",
-		"prepublishOnly2": "git pull && npm test && bump insane",
-		"prepublishOnly": "git pull && npm test && npm audit fix && bump insane"
+		"prepublishOnly": "git pull && npm test && bump insane",
+		"prepublishOnly2": "git pull && npm test && npm audit fix && bump insane"
 	},
 	"author": {
 		"name": "Brenton House",
@@ -25,11 +25,11 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "github:brentonhouse/titanium-jsonc"
+		"url": "github:mobilehero-archive/titanium-jsonc"
 	},
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/brentonhouse/titanium-jsonc/issues"
+		"url": "https://github.com/mobilehero-archive/titanium-jsonc/issues"
 	},
 	"homepage": "https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de",
 	"keywords": [
