@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/jsonc",
-	"version": "1.0.14",
+	"version": "1.0.15",
 	"description": "⭐  Axway Amplify module for using JSONC with Appcelerator Titanium SDK Framework",
 	"main": "jsonc.js",
 	"scripts": {
@@ -75,11 +75,11 @@
 		"@geek/spinner": "^1.0.2",
 		"@geek/tld": "^2.0.1-1",
 		"@titanium/appcelerator": "^6.0.13",
-		"@titanium/bluebird": "^3.7.18",
-		"@titanium/errors": "^1.0.13",
-		"@titanium/essentials": "^1.0.44",
+		"@titanium/bluebird": "^3.7.19",
+		"@titanium/errors": "^1.0.14",
+		"@titanium/essentials": "^1.0.45",
 		"@titanium/events": "^1.0.26",
-		"@titanium/eventsource": "^1.0.13",
+		"@titanium/eventsource": "^1.0.14",
 		"@titanium/jwt": "^1.0.17",
 		"@titanium/module-copier": "^1.0.21",
 		"@titanium/please": "^1.0.24",
