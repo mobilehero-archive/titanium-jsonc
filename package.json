@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/jsonc",
-	"version": "1.0.34",
+	"version": "1.0.35",
 	"description": "⭐  Axway Amplify module for using JSONC with Appcelerator Titanium SDK Framework",
 	"main": "jsonc.js",
 	"scripts": {
@@ -69,7 +69,7 @@
 		"@geek/eslint-config": "^1.0.3",
 		"@geek/jsonc": "^1.0.8",
 		"@geek/jwt": "^1.0.1",
-		"@geek/logger": "^1.0.18",
+		"@geek/logger": "^1.0.19",
 		"@geek/retry": "^1.0.0",
 		"@geek/spawn": "^1.0.2",
 		"@geek/spinner": "^1.0.2",
